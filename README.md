@@ -27,11 +27,11 @@ The Azure-Project_IncrementalLoad demonstrates the implementation of an end-to-e
 
 ## Technology Stack:
 
-**Azure Data Factory (ADF):** Used for data extraction from external URLs and loading the data into Azure SQL Database. Implements the incremental load strategy.
-**Azure SQL Database:** Acts as a staging area where data is temporarily stored before being moved to Azure Data Lake Storage Gen2.
-**Azure Data Lake Storage Gen2:** Storage service for large datasets. It is used for organizing data in three layers: Bronze (raw), Silver (transformed), and Gold (modeled).
-**Azure Databricks:** Used for data transformation and cleaning in the Silver layer, as well as for the creation of a star schema in the Gold layer.
-**Parquet File Format:** The data is stored in Parquet format, an efficient columnar storage format, particularly suited for big data analytics.
+**Azure Data Factory (ADF):** Used for data extraction from external URLs and loading the data into Azure SQL Database. Implements the incremental load strategy.\
+**Azure SQL Database:** Acts as a staging area where data is temporarily stored before being moved to Azure Data Lake Storage Gen2.\
+**Azure Data Lake Storage Gen2:** Storage service for large datasets. It is used for organizing data in three layers: Bronze (raw), Silver (transformed), and Gold (modeled).\
+**Azure Databricks:** Used for data transformation and cleaning in the Silver layer, as well as for the creation of a star schema in the Gold layer.\
+**Parquet File Format:** The data is stored in Parquet format, an efficient columnar storage format, particularly suited for big data analytics.\
 **Star Schema:** Used in the Gold layer for data modeling, comprising of fact and dimension tables, enabling efficient querying and reporting.
 
 ## Conclusion:
